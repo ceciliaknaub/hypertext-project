@@ -126,7 +126,6 @@ h2 {
   display: flex;
   justify-content: column;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .set {
