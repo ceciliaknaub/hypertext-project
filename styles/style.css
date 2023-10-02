@@ -61,8 +61,14 @@ a:hover{
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+li {
+  list-style-type: none;
+  padding-right: 10px
+}
+
 .container-distance {
   display: flex;
   flex-direction: row;
