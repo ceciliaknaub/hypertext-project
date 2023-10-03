@@ -129,19 +129,20 @@ h2 {
 }
 
 .center-routine {
-  display: flex;
-  justify-content: column;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+  
 }
 
 .set {
-  margin: 15px;
+  margin: 10px;
 }
 
 .set p {
   margin: 0px;
 }
-
 
 .container-trends {
   display: flex;
