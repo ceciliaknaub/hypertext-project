@@ -14,6 +14,37 @@ body {
   cursor: url('../circle-cursor.svg'), auto;
 }
 
+a:link {
+  text-decoration: none;
+  background-color: #eff4f9;
+  opacity: 50%;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: gold;
+  opacity: 100%;
+  cursor: url('../circle-cursor.svg'), auto;
+  width: fit-content;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+  padding-right: 10px
+}
+
+/* Index */
 .container-index {
   display: flex;
   flex-direction: column;
@@ -40,34 +71,14 @@ body {
   font-size: large;
 }
 
-a:link {
+#top-link:link {
   text-decoration: none;
   background-color: #eff4f9;
-  opacity: 50%;
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  background-color: gold;
   opacity: 100%;
-  cursor: url('../circle-cursor.svg'), auto;
-  width: fit-content;
+  color: black;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-}
-
-li {
-  list-style-type: none;
-  padding-right: 10px
-}
+/* Distance */
 
 .container-distance {
   display: flex;
@@ -89,6 +100,8 @@ li {
   justify-content: space-around;
 
 }
+
+
 .left {
   display: flex;
   flex-direction: column;
@@ -103,6 +116,7 @@ li {
   height: 100%;
 }
 
+
 .right {
   display: flex;
   flex-direction: column;
@@ -116,10 +130,6 @@ li {
   margin: 0;
 }
 
-#bottom-text {
-  position: absolute; bottom: 0;
-
-}
 h1 {
   margin: 0;
 }
