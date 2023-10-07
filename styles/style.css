@@ -8,21 +8,25 @@ body {
   height: 100%;
   font-family: "Work Sans";
   background-color:  #eff4f9  ;
-  /*cursor: url('../circle-cursor.png');*/
-  /*cursor: url('/Users/ceciliaknaub/Documents/GitHub/hypertext/circle-cursor.svg'), auto; */
   cursor: url('../circle-cursor.svg'), auto;
 }
 
 a:link {
   text-decoration: none;
-  background-color: #eff4f9;
-  opacity: 50%;
   color: black;
+  opacity: 50%;
 }
 
 a:visited {
   text-decoration: none;
   color: black;
+  opacity: 50%;
+}
+
+.svg-box {
+  background-image: url('../link-gradient.svg');
+  height: 200px;
+  width: auto;
 }
 
 a:hover{
@@ -31,7 +35,6 @@ a:hover{
   cursor: url('../circle-cursor.svg'), auto;
   width: fit-content;
 }
-
 
 nav {
   display: flex;
@@ -72,7 +75,7 @@ li {
   width: 100%;
   text-align: justify;
   text-justify: inter-word;
-  margin: 1%
+  margin: 1%;
 }
 
 #top-link:link {
@@ -152,11 +155,18 @@ h2 {
   
 }
 
-.set {
+
+.center-routine div {
   margin: 10px;
 }
 
-.set p {
+.center-routine p {
+  margin: 0px;
+}
+
+.center-routine h3 {
+  font-size: 16px;
+  font-weight: normboldal;
   margin: 0px;
 }
 
