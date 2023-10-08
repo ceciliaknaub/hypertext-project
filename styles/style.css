@@ -22,18 +22,11 @@ a:visited {
   color: black;
   opacity: 50%;
 }
-
-.svg-box {
-  background-image: url('../link-gradient.svg');
-  height: 200px;
-  width: auto;
-}
-
 a:hover{
-  background-color: gold;
+  text-decoration: none;
+  color: black;
   opacity: 100%;
   cursor: url('../circle-cursor.svg'), auto;
-  width: fit-content;
 }
 
 nav {
@@ -57,25 +50,27 @@ li {
 .container-header {
   display: flex;
   flex-direction: row;
-  margin-top: 0%;
-}
-
-
-.feed {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  margin: 0%;
+  z-index: 2;
 }
 
 .text-feed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: large;
-  width: 100%;
   text-align: justify;
   text-justify: inter-word;
   margin: 1%;
+  z-index: 2;
+}
+
+.link-box {
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+  left: 450px;
+  bottom: 275px;
 }
 
 #top-link:link {
