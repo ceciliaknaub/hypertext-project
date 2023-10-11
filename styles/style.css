@@ -205,8 +205,10 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   height: 100%;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .inner-trends {
@@ -215,8 +217,31 @@ h2 {
   align-items: center;
   justify-content: center;
   width: 33%;
+  opacity: 0;
+  margin-bottom: 0;
 }
 
 .emoji {
   font-size: 60px;
+}
+
+.trends-goodbye {
+  color: black;
+  opacity: 0;
+  text-align: center;
+  margin: 0;
+}
+
+#trends-link {
+  color: black;
+  opacity: 0;
+}
+
+#trends-link:hover {
+  color: black;
+  background-color: gold;
+}
+
+.trend-header {
+  text-align: center;
 }
