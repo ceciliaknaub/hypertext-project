@@ -1,5 +1,3 @@
-console.log('HI IM WORKING');
-
 let link = document.querySelector('.index-link');
 console.log(link);
 
