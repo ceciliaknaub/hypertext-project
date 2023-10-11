@@ -175,7 +175,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   opacity: 0;
-  transition: 1s linear;
+  transition: 0.5s linear;
 }
 
 .center-routine div {
@@ -195,7 +195,6 @@ h2 {
 
 .routine-text {
   text-align: center;
-  transition: 0.5s linear;
   opacity: 1;
 }
 

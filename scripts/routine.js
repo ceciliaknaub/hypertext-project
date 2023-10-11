@@ -1,10 +1,8 @@
+setInterval(myTimer, 4000);
 
-setInterval(myGridTimer, 3000);
-
-function myGridTimer() {
+function myTimer() {
   let show = document.querySelector('.center-routine');
   show.style.opacity = "1";
 }
-
 
 
