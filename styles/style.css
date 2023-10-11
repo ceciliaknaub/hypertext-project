@@ -174,7 +174,8 @@ h2 {
   grid-template-columns: auto auto auto auto;
   justify-content: space-around;
   align-items: center;
-  
+  opacity: 0;
+  transition: 1s linear;
 }
 
 .center-routine div {
@@ -190,6 +191,12 @@ h2 {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
+}
+
+.routine-text {
+  text-align: center;
+  transition: 0.5s linear;
+  opacity: 1;
 }
 
 /*Trends*/

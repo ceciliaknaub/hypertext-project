@@ -1,4 +1,4 @@
-setInterval(myTimer, 5000);
+setInterval(myTimer, 4000);
 
 function myTimer() {
   let show = document.querySelector('.show-text');
