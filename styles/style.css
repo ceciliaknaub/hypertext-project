@@ -216,3 +216,7 @@ h2 {
   justify-content: center;
   width: 33%;
 }
+
+.emoji {
+  font-size: 60px;
+}
